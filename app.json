@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "MovieDiscoveryApp",
+    "slug": "MovieDiscoveryApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/splash-logo.png",
+    "scheme": "moviediscoveryapp",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#121212",
+        "foregroundImage": "./assets/splash-logo.png"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/splash-logo.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-logo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#121212"
+        }
+      ]
+    ],
+    "experiments": {
+      "reactCompiler": true
+    }
+  }
+}
